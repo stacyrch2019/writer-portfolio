@@ -1,0 +1,55 @@
+# How to use Markdown in your articles
+
+Before Markdown, writers who blogged or otherwise wrote on the Internet used HTML to format and mark up their content. John Gruber wanted a language that would be easier than HTML to use and wouldn't mark up his content excessively, so in the early 2000s, he created Markdown with the help of Aaron Schwartz. This article will teach you Markdown syntax and how to use it in your technical articles. 
+
+## The Basic Syntax
+
+Like HTML, Markdown uses six heading levels. As in HTML, these headings follow a hierarchy. Use a number sign (#) in front of the H1 to denote the heading. For H2s, use two number signs (##), and so on.
+
+# Heading level 1
+## Heading level 2
+### Heading level 3
+#### Heading level 4
+##### Heading level 5
+###### Heading level 6
+
+**Best practices:**
+- Always use a space between the number sign and the heading title. 
+- Put a blank line before and after the heading.
+
+### Paragraphs
+
+Paragraphs do not need special marks to denote them. To create paragraphs, use a blank line to separate lines of text. 
+
+**Best practices:**
+- Do not indent paragraphs with spaces or tabs *unless* you are nesting a paragraph under a list or image.
+
+### Formatting text
+
+You can bold and italicize text in Markdown. To bold text, enclose it in two asterisks. 
+
+```This sentence contains **bolded text**.```
+
+**Result**: This sentence contains **bolded text**.
+
+To italicize text, enclose it in a single asterisk.
+
+```This sentence contains *italicized text*.```
+
+**Result**: This sentence contains *italicized text*.
+
+To both bold and italicize text, enclose it in three asterisks.
+
+```This sentence contains ***bolded and italicized text***.```
+
+**Result**: This sentence contains ***bolded and italicized text***.
+
+### Block Quotes
+
+You will likely need block quotes for alerts and snippets of code or text. Create a block quote with the > character. The quote will render indented and with a different background color than the white background of the article.
+
+> Here is a block quote. Notice that it renders indented and in a different background color than the usual white background.
+
+### Punctuation
+
+Apostrophes and quotation marks require special handling in Markdown.
